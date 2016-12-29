@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>Brandon</string>
+		<key>creation_date</key>
+		<date>2016-12-25T16:38:00Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.1</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>testing</string>
+    <string>production</string>
+	</array>
+	<key>category</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>developer</key>
+	<string></string>
+	<key>display_name</key>
+	<string></string>
+	<key>icon_hash</key>
+	<string>220e47e1f481f6c0b4eb8547bd66aa671896be458a222bb4378a4fe6913d25b0</string>
+	<key>installer_item_hash</key>
+	<string>2bbd357cd29303b05770ef479e2f86ea8166ac43062ae9e84dc07abfd0ce2c96</string>
+	<key>installer_item_location</key>
+	<string>apps/sublime/Sublime Text Build 3126.dmg</string>
+	<key>installer_item_size</key>
+	<integer>12414</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.sublimetext.3</string>
+			<key>CFBundleName</key>
+			<string>Sublime Text</string>
+			<key>CFBundleShortVersionString</key>
+			<string>Build 3126</string>
+			<key>CFBundleVersion</key>
+			<string>3126</string>
+			<key>minosversion</key>
+			<string>10.7</string>
+			<key>path</key>
+			<string>/Applications/Sublime Text.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Sublime Text.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.7</string>
+	<key>name</key>
+	<string>Sublime Text</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3126</string>
+</dict>
+</plist>

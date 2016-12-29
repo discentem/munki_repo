@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>Brandon</string>
+		<key>creation_date</key>
+		<date>2016-12-26T03:01:49Z</date>
+		<key>munki_version</key>
+		<string>2.8.2.2855</string>
+		<key>os_version</key>
+		<string>10.12.1</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>production</string>
+	</array>
+	<key>category</key>
+	<string>Internet</string>
+	<key>description</key>
+	<string>Mozilla Firefox (or simply Firefox) is a free and open-source[23] web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation.</string>
+	<key>developer</key>
+	<string>Mozilla</string>
+	<key>display_name</key>
+	<string>Firefox</string>
+	<key>icon_hash</key>
+	<string>fed17282654a22e36d452b9fa5d0fd08a03594df6e8a3aaf8d34a65768d934e6</string>
+	<key>installer_item_hash</key>
+	<string>b41ece47d0ad891d8b9307c0f27b50d0daaaaa7495dfa007aa12968a8cc68a6e</string>
+	<key>installer_item_location</key>
+	<string>apps/Firefox 50.1.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>84288</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.mozilla.firefox</string>
+			<key>CFBundleName</key>
+			<string>Firefox</string>
+			<key>CFBundleShortVersionString</key>
+			<string>50.1.0</string>
+			<key>CFBundleVersion</key>
+			<string>5016.12.8</string>
+			<key>minosversion</key>
+			<string>10.9.0</string>
+			<key>path</key>
+			<string>/Applications/Firefox.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Firefox.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.9.0</string>
+	<key>name</key>
+	<string>Firefox</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<false/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>50.1.0</string>
+</dict>
+</plist>
